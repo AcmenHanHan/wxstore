@@ -1,0 +1,5 @@
+<!--pages/pagetwo/aboutus/aboutus.wxml-->
+<map id="map" longitude="{{map.longitude}}" latitude="{{map.latitude}}" 
+  scale="14" markers="{{map.markers}}"
+  show-location style="width: 100%; height: 350px;">
+</map>

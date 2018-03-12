@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<!-- 图片轮播 -->
+<swiper class="home-swier" indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" circular="{{circular}}" 
+  duration="{{duration}}">
+    <block wx:for="{{swiperImages}}"  wx:key="key">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image"/>
+      </swiper-item>
+    </block>
+</swiper>
+<view class="container">
+  <view class="usermotto">
+  <text class="user-motto">PageIndex</text>
+  </view>
+</view>
